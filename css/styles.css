@@ -16,4 +16,7 @@
 #about {
     background-color: #85af4b;
     padding: 2rem;
+
+img.tech-logo {
+	width: 100px;
 }
