@@ -1,7 +1,19 @@
 #topstuff {
     /* background-color: #679ddd; */
-    background-image: url('../images/autumnal.jpg');
+    /* background-color: #e0a672; */
+    background-color: #ae7c52;
+    
+    /* background-image: url('../images/haybale.jpg'); */
     height: 100%;
     background-size: 100% auto;
     background-repeat: no-repeat;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+#about {
+    background-color: #85af4b;
+    padding: 2rem;
 }
