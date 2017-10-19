@@ -1,23 +1,72 @@
-#topstuff {
-    /* background-color: #679ddd; */
-    /* background-color: #e0a672; */
-    background-color: #ae7c52;
-    
-    /* background-image: url('../images/haybale.jpg'); */
-    height: 100%;
-    background-size: 100% auto;
-    background-repeat: no-repeat;
+body {
+    background-color: #679ddd;
 }
 
-.circle {
-    border-radius: 50%;
+section {
+    width: 90%;
+    margin: auto;
+}
+
+
+/********
+SECTIONS
+************/
+
+#topstuff {
+    background-color: #ae7c52;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+#projects {
+    background-color: #85af4b;
+    /* background-color: #e0a672; */
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 20px;
 }
 
 #about {
     background-color: #85af4b;
     padding: 2rem;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 20px;
 }
 
+#techs {
+    background-color: #fff;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 20px;
+}
+
+
+#contact {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding: 1em;
+    border-radius: 20px;
+    background-color: #85af4b;
+}
+
+#footer {
+    background-color: #679ddd;
+    width: 100%;
+}
+
+
 .tech-logo {
-	max-width: 100px;
+    max-width: 100px;
+}
+.circle {
+    border-radius: 50%;
+}
+
+.tiny {
+    font-size: .5em;
 }
