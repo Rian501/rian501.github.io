@@ -45,6 +45,9 @@ SECTIONS
     border-radius: 20px;
 }
 
+.tech-logo {
+    max-width: 100px;
+}
 
 #contact {
     margin-top: 1em;
@@ -59,15 +62,20 @@ SECTIONS
     text-align: center;
 }
 
+.fa::before {
+    color: white;
+}
+.fa::after {
+    color: gray;
+}
+
 #footer {
     background-color: #679ddd;
     width: 100%;
 }
 
 
-.tech-logo {
-    max-width: 100px;
-}
+
 .circle {
     border-radius: 50%;
 }
