@@ -14,7 +14,7 @@ SECTIONS
 
 #topstuff {
     background-color: #ae7c52;
-    background-image: url('/images/snowdrop.jpg');
+    background-image: url('../images/snowdrop.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 1em;
@@ -71,8 +71,17 @@ h1.white{
     border-radius: 20px;
 }
 
+
 .tech-logo {
     max-width: 100px;
+}
+
+.big-tech-logo {
+    max-width: 150px;
+}
+
+.smol-tech-logo {
+    max-width: 70px;
 }
 
 #contact {
